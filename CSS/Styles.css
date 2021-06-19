@@ -37,21 +37,34 @@ hr {
 .container-1 {
   background-color: #EAF6F6;
   margin-bottom: 0;
-  padding-top: 6.25rem;
+  padding: 2rem 0;
   position:relative;
           }
 
-.container-1_cloud-1 {
-  position: absolute;
-  right: 18.75rem;
-  top: 3.125rem;
-             }
+.container-1_Flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+                    }
 
-.container-1_cloud-2 {
- position: absolute;
- left: 18.2rem;
- bottom: 18.2rem;
-                      }
+
+.container-1_Flexbox1 {
+  display: flex;
+          }
+
+.container-1_Flexbox2 {
+  display: flex;
+  flex-direction: column;
+          }
+
+.container-1_travel {
+  height: 13rem;
+  width: 13rem;
+  margin-top: 2.5rem;
+  margin-left: 1.5rem;
+        }
+
 
 .container-2 {
   margin: 2rem 0;
